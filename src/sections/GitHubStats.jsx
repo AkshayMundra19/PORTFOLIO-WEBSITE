@@ -11,9 +11,9 @@ const languages = [
 ];
 
 const stats = [
-  { label: 'Public Repos', value: '12+', icon: <GitFork size={20} />, color: '#00d4ff' },
-  { label: 'Total Stars', value: '8+', icon: <Star size={20} />, color: '#f59e0b' },
-  { label: 'Contributions', value: '200+', icon: <BarChart3 size={20} />, color: '#7b2ff7' },
+  { label: 'Public Repos', value: '8+', icon: <GitFork size={20} />, color: '#00d4ff' },
+  { label: 'Total Stars', value: '4+', icon: <Star size={20} />, color: '#f59e0b' },
+  { label: 'Contributions', value: '3+', icon: <BarChart3 size={20} />, color: '#7b2ff7' },
 ];
 
 function ContributionGrid() {
