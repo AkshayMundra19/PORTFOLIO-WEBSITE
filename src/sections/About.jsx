@@ -1,12 +1,18 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code2, Palette, Zap, Target } from 'lucide-react';
+import { Code2, Palette, Zap, Target, Globe } from 'lucide-react';
 
 const traits = [
   {
     icon: <Code2 size={22} />,
     title: 'Passionate Coder',
     desc: 'Love turning complex problems into elegant, efficient code solutions.',
+    color: '#00d4ff',
+  },
+  {
+    icon: <Globe size={22} />,
+    title: 'Web Developer',
+    desc: 'Building responsive, modern web apps using React, Vite, and cutting-edge frontend technologies.',
     color: '#00d4ff',
   },
   {
@@ -101,6 +107,13 @@ export default function About() {
               >
                 🤖 AI Enthusiast
               </motion.div>
+              <motion.div
+                animate={{ y: [-4, 4, -4] }}
+                transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
+                className="absolute top-1/2 -right-12 glass-card px-3 py-2 text-xs font-semibold text-green-400 whitespace-nowrap"
+              >
+                🌐 Web Dev
+              </motion.div>
             </div>
           </motion.div>
 
@@ -114,7 +127,8 @@ export default function About() {
               style={{ color: '#94a3b8' }}
             >
               I'm a{' '}
-              <span className="text-cyan-400 font-semibold">Python Developer</span> and{' '}
+              <span className="text-cyan-400 font-semibold">Python Developer</span>,{' '}
+              <span className="text-green-400 font-semibold">Web Developer</span> and{' '}
               <span className="text-purple-400 font-semibold">AI Enthusiast</span> with
               a passion for building solutions that bridge the gap between technology
               and real-world impact. From crafting intelligent systems to designing

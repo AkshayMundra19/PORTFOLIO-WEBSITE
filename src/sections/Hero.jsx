@@ -173,8 +173,9 @@ export default function Hero() {
                 <span>Contact Me</span>
               </a>
               <a
-                href="/resume.pdf"
-                download
+                href="https://drive.google.com/file/d/1W-zHcDv2j6h2FzdWrFG0-TSknJzVKeNQ/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="glow-btn"
                 style={{ border: '1.5px solid rgba(255,255,255,0.15)', color: '#94a3b8' }}
                 data-hover
