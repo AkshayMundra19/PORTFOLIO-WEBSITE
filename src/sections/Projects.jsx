@@ -13,8 +13,8 @@ const projects = [
     color: '#00d4ff',
     gradient: 'from-cyan-500/20 to-blue-600/10',
     features: ['Personalized AI Learning', 'Offline-First Architecture', 'Responsive Modular UI', 'Student Progress Tracking'],
-    github: 'https://github.com',
-    demo: '#',
+    github: 'https://github.com/Aditiii637/EduBridge',
+    demo: 'https://github.com/Aditiii637/EduBridge',
     badge: '🏆 Hackathon Project',
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     gradient: 'from-purple-600/20 to-pink-600/10',
     features: ['Real-time GPS Tracking', 'Safety Alerts & Insights', 'Route Visualization', 'Traveler Dashboard'],
     github: 'https://github.com',
-    demo: '#',
+    demo: 'https://block-trip.vercel.app/',
     badge: '🗺️ Safety Tech',
   },
 ];
@@ -117,6 +117,8 @@ function ProjectCard({ project, index, inView }) {
           </a>
           <a
             href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
             id={`${project.id}-demo`}
             data-hover
             className="flex items-center gap-2 text-sm px-5 py-2.5 rounded-full font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
