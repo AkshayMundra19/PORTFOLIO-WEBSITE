@@ -6,7 +6,7 @@ const experiences = [
   {
     company: 'Renao Robotics Pvt. Ltd.',
     role: 'Python Developer Intern',
-    period: '2024',
+    period: '2025',
     location: 'India',
     type: 'Internship',
     color: '#00d4ff',
